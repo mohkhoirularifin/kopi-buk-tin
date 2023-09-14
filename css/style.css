@@ -157,6 +157,23 @@ body {
 .about h2 span {
   color: var(--primary);
 }
+
+.about .row {
+  display: flex;
+}
+
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+
+.about .row .about-img img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
 /* Media Queries */
 
 /* Laptop */
